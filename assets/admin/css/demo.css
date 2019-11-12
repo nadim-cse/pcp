@@ -1,0 +1,142 @@
+/* All styles created for demo purposes only, you may not need this for your project */
+.demo-button button {
+  margin-bottom: 5px; }
+
+.demo-icons li {
+  margin-bottom: 50px;
+  text-align: center; }
+
+.demo-icons .lnr,
+.demo-icons .fa {
+  font-size: 28px; }
+
+.demo-icons .cssclass {
+  display: block;
+  margin-top: 5px;
+  margin-left: 5px; }
+
+/*# sourceMappingURL=demo.css.map */
+.protask{
+  padding-left: 65px;
+  padding-top: 7%;
+}
+.protask .view {
+  position: relative;
+  margin-left: 200px;
+}
+.protask .view .viewHeader {
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  padding: 20px 20px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-bottom: 1px solid #E0E0E0;
+}
+.protask .view .viewHeader .title {
+  float: left;
+  font-size: 1.4em;
+  font-weight: 400;
+  padding: 0px;
+  color: #AAA;
+  margin-top: -18px;
+}
+.protask .view .viewHeader .functions {
+  float: right;
+}
+.protask .view .viewHeader .functions .button {
+  float: right;
+  height: 30px;
+  line-height: 30px;
+  background-color: #AAA;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  margin: 0px 5px;
+  padding: 0px 20px;
+  cursor: pointer;
+  color: White;
+  font-weight: 700;
+}
+.protask .view .viewHeader .functions .button.active {
+  background-color: #54b9cd;
+}
+.protask .view .viewHeader .functions .button.inverz {
+  background-color: inherit;
+  border: 1px solid #AAA;
+  width: 10px;
+  color: #AAA;
+  font-size: 1.3em;
+  padding-left: 10px;
+  padding-right: 16px;
+}
+.protask .view .content {
+  position: absolute;
+  left: 0px;
+  top: 70px;
+  right: 0px;
+  bottom: 0px;
+  padding: 10px;
+}
+.protask .view .content .list .title {
+  width: 100%;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #54b9cd;
+}
+.protask .view .content .list ul {
+  width: 100%;
+  padding-left: 10px;
+  color: #777;
+}
+.protask .view .content .list ul li {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  list-style: none;
+  border-top: 1px solid #AAA;
+}
+.protask .view .content .list ul li.checked {
+  background-color: #F0F4F5;
+}
+.protask .view .content .list ul li:last-child {
+  border-bottom: 1px solid #AAA;
+}
+.protask .view .content .list ul li i {
+  float: left;
+  width: 30px;
+  height: 50px;
+  line-height: 50px;
+  margin-left: 10px;
+  font-size: 1.3em;
+}
+.protask .view .content .list ul li span {
+  float: left;
+  font-weight: 600;
+}
+.protask .view .content .list ul li .info {
+  float: right;
+}
+.protask .view .content .list ul li .info span {
+  font-weight: 300;
+}
+.protask .view .content .list ul li .info .button {
+  float: right;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  background-color: #AAA;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  margin: 10px 10px;
+  text-align: center;
+  cursor: pointer;
+  color: White;
+  font-weight: 700;
+}
+.protask .view .content .list ul li .info .button.green {
+  background-color: #85C157;
+}
